@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "YRBS Data Visualization, LGB Identity, and Same-Sex Sexual Contacts (2015-2019)"
+title: "YRBS Data Visualization: LGB Identity, Same-Sex Sexual Contacts, and Missing Responses (2015-2019)"
 title_separator: "-"
 name: "Jiayi Zhao"
 description: "Displaying cool data visualizations"
