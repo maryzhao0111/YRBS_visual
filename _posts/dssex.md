@@ -1,0 +1,70 @@
+---
+title: "5 Sexual Activity Details"
+date: 2022-10-24
+published: true
+tags: [dataviz, altair]
+excerpt: "This post includes a general visualization of LGB identity and same-sex sexual contacts by state and year."
+altair-loader:
+  altair-chart-1: "charts/visual_plots/detailed_ssex/sexual.json"
+  altair-chart-2: "charts/visual_plots/detailed_ssex/dssex_bars.json"
+  altair-chart-3: "charts/visual_plots/detailed_ssex/dmssex_bars.json"
+toc: true
+toc_sticky: true
+---
+
+This post includes a visualization of detailed about sexual activities and same-sex sexual contacts by state and year.
+
+Note:
+- An empty bar means no YRBS data available for that state-year.
+
+## Detailed Sexual Activity
+
+The plot below is derived from the following questions:
+
+Q65. During your life, with whom have you had sexual contact?
+- A. I have never had sexual contact
+- B. Females
+- C. Males
+- D. Females and males
+- NA
+
+Q58. Have you ever had sexual intercourse?
+- A. Yes
+- B. No
+- NA
+
+Q59. How old were you when you had sexual intercourse for the first time?
+Q60. During your life, with how many people have you had sexual intercourse?
+Q61. During the past 3 months, with how many people did you have sexual intercourse?
+Q62. Did you drink alcohol or use drugs before you had sexual intercourse the last time?
+Q63. The last time you had sexual intercourse, did you or your partner use a condom?
+Q64. The last time you had sexual intercourse, what one method did you or your partner use to prevent pregnancy?
+
+Note: 
+- Q59-Q64 all provide an answer option "A. I have never had sexual contact". 
+- After cross-checking, answers from Q58-Q65 are consistent within individuals.
+- "had sex" means had sexual intercourse before but no further information about the sex of sexual partner.
+- "NA" means missing response in all Q58-65.
+
+<div id="altair-chart-1"></div>
+
+## Same-Sex Sexual Contacts
+
+The plots below are derived from two indicators as follow:
+
+1. The combined sexual activity indicator as above.
+
+2. What is your sex?
+- A. Female
+- B. Male
+- NA
+
+### All respondents
+
+For all respondents:
+
+<div id="altair-chart-2"></div>
+
+For male respondents only:
+
+<div id="altair-chart-3"></div>
